@@ -1,0 +1,69 @@
+@import "bootstrap";
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3px;
+  letter-spacing: -2px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #666;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+.images {
+  width: 180px;
+  height: 100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 8px;
+  float: left;
+}
+.header {
+  header ul {
+  float: right;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  margin-left: 10px;
+}
+}
